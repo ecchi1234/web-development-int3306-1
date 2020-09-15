@@ -1,213 +1,291 @@
 body {
-	margin:0px;
-	padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #container {
-	padding:0px;
-	width: 980px;
-	margin-left:auto;
-	margin-right:auto;
-	position:relative;
-	top:0px;
+  padding: 0px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0px;
 }
 
 #header {
-	background-image:url('../images/banner.png');
-	background-repeat:no-repeat;
-	height: 160px;
-	width:980px;
-	background-color:#fff000;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 980px;
+  background-color: #fff000;
 }
 
 #leftbar {
-	display:inline;
-	float:left;
-	width:165px;
+  display: inline;
+  float: left;
+  width: 165px;
 }
 
 #content {
-	display:inline;
-	float:left;
-	width:605px;
-	padding:20px;
+  display: inline;
+  float: left;
+  width: 605px;
+  padding: 20px;
 }
 
 #rightbar {
-	display:inline;
-	float:left;
-	width:140px;
+  display: inline;
+  float: left;
+  width: 140px;
 }
 
-.spacer {clear:both;}
+.spacer {
+  clear: both;
+}
 
-#footer{
-	background-color:#9d2224;
+#footer {
+  background-color: #9d2224;
 }
 
 p {
-	text-align:justify;
+  text-align: justify;
 }
 
-
-ul.single-vertical-menu  {
-	padding:0px;
+ul.single-vertical-menu {
+  padding: 0px;
 }
-ul.single-vertical-menu  li {
-	left:0px;
-	height:45px;
-	padding:0px ;  
-    margin:0px;        
-	background:url('../images/bgmenu.gif') no-repeat;
-	list-style:none;
-}
-
-ul.single-vertical-menu  li > a {
-	text-decoration:none;
-	cursor: pointer;
-	position:relative;
-	top:10px;
-	left:5px;
-}
-ul.single-vertical-menu  li > a:hover {
-	color:red;
+ul.single-vertical-menu li {
+  left: 0px;
+  height: 45px;
+  padding: 0px;
+  margin: 0px;
+  background: url("../images/bgmenu.gif") no-repeat;
+  list-style: none;
 }
 
-.linkedimg {
-	border: #920001 1px solid;
-	cursor: pointer;
+ul.single-vertical-menu li > a {
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  left: 5px;
 }
+ul.single-vertical-menu li > a:hover {
+  color: red;
+}
+/*edit this css*/
+.link-image {
+  border: #920001 1px solid;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+/*--------*/
 
 #owner {
-	display:inline;
-	float:left;
-	width: 660px;
-	color:#ffffff;
-	padding:20px;
+  display: inline;
+  float: left;
+  width: 660px;
+  color: #ffffff;
+  padding: 20px;
 }
 
 #developer {
-	display:inline;
-	float:left;
-	color:#999999;
-	width: 240px;
-	padding:20px;
-	text-align: right;
+  display: inline;
+  float: left;
+  color: #999999;
+  width: 240px;
+  padding: 20px;
+  text-align: right;
 }
 
 #menu {
-	background: #1e7c9a;
-	padding: 5px 15px 5px 15px;
-	position:fixed;
-	top:0px;
-	left:10px;
+  background: #1e7c9a;
+  padding: 5px 15px 5px 15px;
+  position: fixed;
+  top: 0px;
+  left: 10px;
 }
-#menu  li { 
-	list-style-type: none;
-	cursor:pointer;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 5px 15px 0px 15px;
-    background: #1e7c9a;
+#menu li {
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px 0px 15px;
+  background: #1e7c9a;
 }
 
-#menu li a {  white-space: nowrap; }
+#menu li a {
+  white-space: nowrap;
+}
 
 #menu > li {
-	display: inline;
-    position: relative;
-	padding: 5px 10px;
+  display: inline;
+  position: relative;
+  padding: 5px 10px;
 }
 
 #menu > li:hover {
-	background: #2f8d9a;
+  background: #2f8d9a;
 }
 
-#menu > li  > ul {
-	display:none;
+#menu > li > ul {
+  display: none;
 }
 
 #menu > li:hover > ul {
-	display: block;
-    position: absolute;
-	left:-50px;
+  display: block;
+  position: absolute;
+  left: -50px;
 }
 
 #menu > li > ul > li {
-	position:relative;
+  position: relative;
 }
-#menu > li  > ul > li > ul {
-	display:none;
-}
-
-#menu > li:hover > ul > li:hover > ul{
-	display: block;
-    position: absolute;
-	left:170px;
-    top:0;
+#menu > li > ul > li > ul {
+  display: none;
 }
 
-#menu > li  > ul > li {
-	width:180px;
-	border-bottom: solid 1px #1e6c8b;
-	background: #123cdf;
+#menu > li:hover > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  left: 170px;
+  top: 0;
 }
 
-#menu > li  > ul > li > ul > li {
-	width:180px;
-	border-bottom: solid 1px #1e6c8b;
-	background: #abc123;
+#menu > li > ul > li {
+  width: 180px;
+  border-bottom: solid 1px #1e6c8b;
+  background: #123cdf;
 }
 
+#menu > li > ul > li > ul > li {
+  width: 180px;
+  border-bottom: solid 1px #1e6c8b;
+  background: #abc123;
+}
 
 ul.droplinemenu {
-	position: relative;
-	background: #2f8d9a;
-	padding-top: 5px;
-	padding-bottom:5px;
+  position: relative;
+  background: #2f8d9a;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 ul.droplinemenu > li {
-	display: inline;
-	height: 20px;
-	padding: 5px 10px;
-	list-style-type: none;
-	cursor:pointer;
+  display: inline;
+  height: 20px;
+  padding: 5px 10px;
+  list-style-type: none;
+  cursor: pointer;
 }
 ul.droplinemenu > li:hover {
-	background:#cdcdcd;
+  background: #cdcdcd;
 }
 
-ul.droplinemenu  > li > ul {
-	display: none;
-	position:absolute;
-	top:29px;
-	left:0px;
-	padding-top: 5px;
-	padding-bottom:5px;
-	width:940px;
-	background:#cdcdcd;
+ul.droplinemenu > li > ul {
+  display: none;
+  position: absolute;
+  top: 29px;
+  left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 940px;
+  background: #cdcdcd;
 }
 
-ul.droplinemenu  > li:hover > ul  {
-	display: block;
+ul.droplinemenu > li:hover > ul {
+  display: block;
 }
 
-ul.droplinemenu  > li > ul > li {
+ul.droplinemenu > li > ul > li {
+  display: inline;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 5px 10px;
+}
+ul.droplinemenu > li > ul > li:hover {
+  color: red;
+}
+
+/*my css start here*/
+#left,
+#center,
+#right {
+  display: inline;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+#middle {
+  display: flex;
+}
+
+#title-center {
+  display: inline;
+}
+
+li {
+  list-style: none;
+}
+
+.left-menu {
+  background-image: url("../images/bgmenu.gif");
+  background-repeat: no-repeat;
+  height: 45px;
+  padding: 5px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-size: contain;
+  width: 165px;
+}
+
+#center {
+  padding: 10px;
+}
+
+a:link {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+#bottom {
+  height: 112px;
+  background-color: brown;
+}
+.bottom-footer-left {
+  float: left;
+  width: 660px;
+  padding: 20px;
+  display: inline;
+}
+.bottom-footer-right {
+  float: right;
+  padding: 20px;
+  text-align: right;
+  color: #ccc;
+}
+#right > img{
+	border: #920001 1px solid;
+  	cursor: pointer;
+  	margin-bottom: 2px;
+}
+
+.left-menu > a{
 	display: inline;
-	cursor:pointer;
-	list-style-type: none;
-	padding: 5px 10px;
-}
-ul.droplinemenu  > li > ul > li:hover {
-	color: red;
 }
 
-
-
-
-
-
-
-
-   
+.left-upon, .left-bottom{
+	padding: 0px;
+	
+}

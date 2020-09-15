@@ -6,76 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./template/css/mystyle.css">
-    <style>
-        #left,
-        #center,
-        #right {
-            display: inline;
-            float: left;
-        }
 
-        .clear {
-            clear: both;
-        }
-
-        #middle {
-            display: flex;
-        }
-
-        #title-center {
-            display: inline;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        .left-menu {
-            background-image: url('./template/images/bgmenu.gif');
-            background-repeat: no-repeat;
-            height: 45px;
-            padding: 5px;
-        }
-
-        #center {
-            padding: 10px;
-        }
-
-        a:link {
-            color: blueviolet;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: blue;
-        }
-
-        a:hover {
-            color: red;
-        }
-
-        #bottom {
-            height: 112px;
-            background-color: brown;
-        }
-        .bottom-footer-left{
-            float: left;
-            width: 660px;
-            padding: 20px;
-            display: inline;
-        }
-        .bottom-footer-right{
-            /* float: left;
-            width: 240px;
-            padding: 20px;
-            display: inline;
-            text-align: right; */
-            float: right;
-            padding: 20px;
-            text-align: right;
-            color: #ccc;
-        }
-    </style>
 </head>
 
 <body>
@@ -83,11 +14,23 @@
         <div id="top">
             <img id="banner" src="./template/images/banner.png" alt="banner">
         </div>
+        <div id="menu-bar">
+            <ul class="droplinemenu">
+                <li>Menu 1
+                    <ul>
+                        <li>1-1</li>
+                        <li>1-2</li>
+                    </ul>
+                </li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+        </div>
 
         <div id="middle">
 
             <div id="left">
-                <ul>
+                <ul class="left-upon">
                     <li class="left-menu"><a href="#">Trang tin điện tử</a></li>
                     <li class="left-menu"><a href="#">Diễn đàn</a></li>
                     <li class="left-menu"><a href="#">Dịch vụ công</a></li>
@@ -96,9 +39,11 @@
                     <li class="left-menu"><a href="#">Hoạt động sáng tạo</a></li>
                     <li class="left-menu"><a href="#">Tư vấn phản biện</a></li>
                     <li class="left-menu"><a href="#">Thư điện tử</a></li>
-                    <li><img src="./template/images/logo_nxbtt.jpg" alt=""></li>
-                    <li><img src="./template/images/logo_cenforchil.gif" alt=""></li>
-                    <li><img src="./template/images/logo_vhgd.gif" alt=""></li>
+                </ul>
+                <ul class="left-bottom">
+                    <li class="link-image"><img src="./template/images/logo_nxbtt.jpg" alt=""></li>
+                    <li class="link-image"><img src="./template/images/logo_cenforchil.gif" alt=""></li>
+                    <li class="link-image"><img src="./template/images/logo_vhgd.gif" alt=""></li>
                 </ul>
             </div>
 
