@@ -1,0 +1,29 @@
+.input-label {
+    float: left;
+    width: 150px;
+}
+
+.container {
+    width: 650px;
+}
+
+.text-field {
+    padding: 5px;
+    border: 1px solid darkgray;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.text-field:hover {
+    background-color: darkgrey;
+}
+
+
+.required {
+    background-color: aqua;
+}
+
+[class *= "error"] {
+    color: red;
+    float: right;
+}

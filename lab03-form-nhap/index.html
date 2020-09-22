@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 03 - Form nhap</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <label class="input-label" for="name">Họ tên</label>
+        <input class="text-field required" type="text" name="name" id="name">
+        <span class="name-error"></span>
+        <br><br>
+
+        <label class="input-label" for="address">Địa chỉ</label>
+        <input class="text-field" type="text" name="address" id="address">
+        <span class="address-error"></span>
+        <br><br>
+
+        <label class="input-label">Giới tính</label>
+        <input type="radio" name="sex1" id="sex1" value="male">
+        <label for="sex1">Nam</label>
+        <input type="radio" name="sex2" id="sex2" value="female">
+        <label for="sex2">Nữ</label>
+        <span class="sex-error"></span>
+        <br><br>
+
+        <label class="input-label" for="dob">Ngày sinh</label>
+        <input class="text-field required" type="text" name="dob" id="dob" placeholder="nn/tt/nnnn">
+        <span class="dob-error"></span>
+        <br><br>
+
+        <label class="input-label" for="email">E-mail</label>
+        <input class="text-field required" type="text" name="email" id="email">
+        <span class="email-error"></span>
+        <br><br>
+
+        <label class="input-label" for="phone">Điện thoại</label>
+        <input class="text-field" type="text" name="phone" id="phone">
+        <span class="phone-error"></span>
+        <br><br>
+
+        <label class="input-label">Khóa đăng ký</label>
+        <input type="checkbox" name="course-1" id="course-1" value="english"><label for="english">Tiếng anh</label>
+        <input type="checkbox" name="course-2" id="course-2" value="management"><label for="management">Quản trị</label>
+        <input type="checkbox" name="course-3" id="course-3" value="information-tech"><label
+            for="information-tech">CNTT</label>
+        <span class="course-error"></span>
+        <br><br>
+
+        <label class="input-label" for="username!">Tên sử dụng</label>
+        <input class="text-field required" type="text" name="username" id="username">
+        <span class="username-error"></span>
+        <br><br>
+
+        <label class="input-label" for="password">Mật khẩu</label>
+        <input class="text-field required" type="password" name="password" id="password">
+        <span class="password-error"></span>
+        <br><br>
+
+        <label class="input-label" for="re-pass">Gõ lại mật khẩu</label>
+        <input class="text-field required" type="password" name="re-pass" id="re-pass">
+        <span class="re-pass-error"></span>
+        <br><br>
+
+        <label class="input-label" for="note">Ghi chú</label>
+        <textarea name="note" id="note"></textarea>
+        <span class="note-error"></span>
+        <br><br>
+
+        <label class="input-label">Ảnh chân dung</label>
+        <input type="file" name="fileUpload" id="upImage">
+        <br><br>
+        <label class="input-label">&nbsp;</label>
+        <input type="submit" value="Chấp nhận" id="submit-button">
+        <input type="button" value="Bỏ qua">
+
+        <script src="./main.js"></script>
+    </div>
+</body>
+
+</html>
