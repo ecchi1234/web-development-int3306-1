@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+.menu-list-item {
+    background-color: wheat;
+}
+.menu-list-item td {
+    padding: 10px;
+}
+
+.menu-list-item td:hover {
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+#content {
+    vertical-align: top;
+    color: blue;
+    cursor: pointer;
+}
