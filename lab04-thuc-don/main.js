@@ -16,7 +16,4 @@ function onClickMenuItem(myself) {
   selected.style.backgroundColor = "chartreuse";
 }
 
-function ontOutMenuItem(myself) {
-  for (var e of menuItem) {
-  }
-}
+
