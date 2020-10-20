@@ -1,0 +1,30 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: deeppink;
+}
+
+#student-list tr.checked-cell {
+    background-color: yellow !important;
+}
+
+.hover-cell {
+    background-color: chartreuse !important;
+    cursor: pointer !important;
+}
+
+#student-list tr:nth-child(even) {
+    background-color: #eee;
+}
+#student-list tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
