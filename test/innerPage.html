@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><title>Inner Page</title></head><body>
+    <input id="txt" type="text">
+    <script>
+    document.getElementById("txt").onkeyup = function() {
+    parent.document.getElementById("txt").value = this.value;
+    };
+    </script>
+    </body></html>

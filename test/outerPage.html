@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><title>Outer Page</title></head><body>
+    <input id="txt" type="text">
+    <iframe id="ifr" src="innerPage.html"></iframe>
+    <script>
+    document.getElementById("txt").onkeyup = function() {
+    var iwnd = document.getElementById("ifr").contentWindow;
+    iwnd.document.getElementById("txt").value = this.value;
+    };
+    </script>
+    </body></html>
