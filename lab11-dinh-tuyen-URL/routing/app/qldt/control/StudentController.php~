@@ -1,0 +1,9 @@
+<?php
+    namespace stdmgr\control;
+    
+    class StudentController {
+        public function proc($arr) {
+            echo "Danh sach sinh vien <br/>";
+            var_dump($arr);
+        }
+    }

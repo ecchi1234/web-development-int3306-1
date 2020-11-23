@@ -1,0 +1,12 @@
+<?php
+    namespace fallback\control;
+    
+    class DefaultController {
+        public function proc($arr) {
+            echo "default";
+        }
+        
+        public function _error($arr) {
+            echo "error";
+        }
+    }

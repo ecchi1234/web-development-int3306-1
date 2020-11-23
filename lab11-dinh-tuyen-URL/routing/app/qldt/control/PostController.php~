@@ -1,0 +1,22 @@
+<?php
+    namespace forum\control;
+    require_once("app/forum/model/Post.php");
+    
+    
+    class PostController {
+        public function proc($arr) {
+            $post = new \forum\model\Post();
+            $data = $post->getAllPosts();
+            require_once("app/forum/view/list.php");
+        }
+        
+        public function edit($arr) {
+            echo "Chinh sua bai viet <br/> Tham so: ";
+            var_dump($arr);
+        }
+        
+         public function view($arr) {
+            echo "Xem bai viet <br/> Tham so: ";
+            var_dump($arr);
+        }
+    }

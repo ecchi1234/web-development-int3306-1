@@ -1,0 +1,14 @@
+<?php
+    namespace forum\model;
+    require_once("app/core/model/Util.php");
+    require_once("app/core/model/PDOData.php");
+          
+    class Post {
+        private $db;
+        public function __construct() { $this->db = new \core\model\PDOData();}
+        public function __destruct() { $this->db = null;}
+        public function getAllPosts() {
+            $sql = "select * from post";
+            return $this->db->doQuery($sql);
+        }
+    }         
